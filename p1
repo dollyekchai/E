@@ -1,0 +1,125 @@
+1)site: This operator restricts the search to a specific site. 
+.intitle: This operator requires that the specified word or phrase is 
+included in the page's title.
+.inurl: This operator requires that the specified word or phrase is included 
+in the page's URL. 
+filetype: This operator restricts the search to specific file types. 
+For example, 'filetype:pdf will only return PDF files.
+Intext: This operator requires that the specified word or phrase is 
+included in the body of the page. 
+Try it out: intext:AI
+.cache: This operator shows the version of the page that Google has in 
+its cache.
+.related: This operator returns sites that are similar to the specified site.
+.info: This operator provides information about the specified site. 
+.define: This operator provides definitions for the specified word or 
+phrase. 
+These operators can be used individually or in combination to create more 
+specific and targeted searches.
+.intitle: Searches for pages that contain a specific word in the title tag. 
+Try it out: intitle:pizza 
+This will show pages with the word "pizza" in the title tag.
+allintitle: Works like "intitle" but will only show pages where the title 
+tag includes all of the specified words.
+Try it out: allintitle:pizza recipe
+.related: Allows you to find sites related to a particular domain. 
+Try it out: related:nytimes.com
+13) OR : 
+Try it out: pizza OR pasta
+This will show pages that are related to either pizza or pasta. Or both. 
+Alternatively, you can use the pipe (1) operator in place of "OR." It does 
+the same thing. 
+Try it out: pizza | pasta
+14.AND: 
+Finds results related to both the searched terms. 
+Try it out: pizza AND pasta 
+The AND operator is usually implied in Google search queries. When 
+entering multiple search terms, Google assumes you want to see results 
+that include all of those terms. 
+So if you search for "pizza pasta," Google will show results that include both 
+"pizza" and "pasta" anyway.
+15. – 
+The minus (-) operator excludes a particular term or phrase and shows 
+pages that don’t include the excluded term (or terms). 
+Try it out: digital marketing-jobs 
+Google will show pages related to "digital marketing," but not "digital 
+marketing jobs."
+16.() 
+The parentheses "()" groups multiple terms or search operators to influence 
+the final search. 
+Try it out: Tesla (Model S OR Model Y) 
+Google will show pages that either include "Model S" or "Model Y" in addition 
+to "Tesla."
+17.* 
+Acts as a wild card and fills in the missing word or phrase. 
+Try it out: best * in Paris 
+Google will fill in the asterisk with different words, such as "places," 
+"museums," "hotels," "restaurants," "tourist places," etc.
+18.define: See the definition for a specific word or concept. The definition 
+is displayed in a special dictionary box, but sometimes Google might just 
+show websites that define the term for you. 
+Try it out: define:algorithm 
+This will serve the definition of the word "algorithm." 
+19.Filetype: Find results of a particular file format (e.g., PDF, XLS, PPT, 
+DOCX, etc.) 
+Try it out: filetype:pdf climate change 
+You'll see search results for PDF files related to climate change.
+20.ext: 
+Alternatively, you can use the "ext:" operator in place of "filetype:" It does 
+the same thing. 
+Try it out: ext:pdf climate change
+21.cache: Allows you to view the most recent cached version of a 
+webpage. 
+11 
+Try it out: cache:semrush.com
+22.Site: Finds results only from a specific website. 
+Try it out: site:nytimes.com
+23.inurl: Finds pages that include a specific word in the URL. 
+Try it out: inurl:shampoo 
+This will return pages that have the word "shampoo" in the URL. 
+24.allinurl: Works like "inurl" but will only return pages where the URL 
+includes all of the specified terms. 
+Try it out: allinurl:best baby shampoos
+25.weather: Allows you to quickly see weather conditions for a particular 
+location. 
+Try it out: weather:london 
+Google will display the current temperature, forecast, and other weather
+related information
+26.stocks: Allows you to quickly see stock prices and other financial 
+information of a particular company. 
+Try it out: stocks:tesla 
+Google will show the stock price, current market cap, stock chart with 
+historic price details, and other relevant information.
+27.map: Shows a map of a specific location. 
+Try it out: map:new york 
+Google will display a map of the location. If you click on the map, it will 
+take you to Google Maps. Where you can zoom in or zoom out and explore 
+further.
+28. movie: Shows information about a specific movie. 
+Try it out: movie:avengers endgame
+29. allintext: 
+Works like “intext” but will only show pages where page content contains 
+all of the specified words. 
+15 
+Try it out: allintext:SEO tips
+30. source: 
+Finds news articles from a specific source in Google News. 
+Try it out: tesla source:nytimes.com 
+31. in: 
+Lets you convert one unit to another. Applies to currency, weights, distance, 
+temperature, time, etc. 
+For example, you can search for “999 USD in EUR” to see how much $999 
+USD is worth in euros. 
+Try it out: 999 usd in eur 
+32.“search term”: 
+Using quotation marks around a search query allows you to search for an 
+exact phrase rather than individual words. 
+Try it out: “best pizza in new york city”
+33. AROUND(X): 
+Searches for pages where two words appear within the distance of “X” 
+words from each other. 
+Try it out: Tesla AROUND(5) Model S 
+34. location: 
+Narrow your results to a specific location. 
+Try it out: location:seattle pizza 
+You’ll see pizza-related results specific to Seattle. 
