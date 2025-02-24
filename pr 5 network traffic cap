@@ -1,0 +1,9 @@
+tcp.port == 80 || udp.port == 80
+http
+tcp.analysis.flags
+!(arp or dns or icmp)
+tcp.port == 80 || udp.port == 80
+tcp.flags.syn == 1
+frame contains gmail.com
+tcp.stream eq 35
+dhcp
